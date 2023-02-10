@@ -2,4 +2,4 @@ Esta es la historia de jorge morales alias
 
 jorge doss, el tiene 24 años y esta aprendiendo 
 
-como funciona el mundo de git.
+como funciona el mundo de git. El vive en Mexico
