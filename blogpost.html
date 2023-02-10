@@ -17,7 +17,7 @@
      }
      #container{
         width: 70%;
-        padding: 1em;
+        padding: 0;
         text-align: center;
         border: 1px solid black;
         margin: 0 auto;
@@ -25,10 +25,29 @@
      #container h1{
         font-size: 20px;
      }
+     #cabecera{
+        background: green;
+        color: white;
+        padding: 0.5em;
+        margin: 0;
+        font-weight: bold;
+        box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+     }
+     #post{
+        padding: 1em;
+     }
+     #cabecera #tagline{
+        font-weight: normal;
+        font-size: 0.8em;
+        padding: 0 0 0 1em;
+     }
     </style>
 </head>
 <body>
     <div id="container">
+      <div id="cabecera">
+        Blog <span id="tagline">Tu blog de confianza</span>
+      </div>
       <div id="post">
         <h1>Mi blog faborito</h1>
         <p>
